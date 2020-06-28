@@ -14,7 +14,7 @@ function ExperienceContent(props){
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col md={10}>
                     <p>{props.experience.description}</p>
                 </Col>
                 <Col md={1}>

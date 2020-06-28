@@ -40,7 +40,7 @@ class Skills extends React.Component{
 
     render(){
         return(
-            <Container>
+            <Container className='ml-3'>
                 <Row>
                 <Col>
                     <h4 className='font-weight-light'>Languages</h4>

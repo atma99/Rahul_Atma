@@ -30,7 +30,7 @@ class Experience extends React.Component{
 
     render(){
         return(
-            <Container>
+            <Container fluid={true} className='ml-0'>
                {this.makeExperience(this.state.experiences)}
             </Container>
         )       
