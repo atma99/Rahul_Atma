@@ -2,6 +2,7 @@ import React from 'react';
 import nbalogo from '../images/projectImages/nbalogo.jpg';
 import PONGpic from '../images/projectImages/PONGpic.png';
 import primeAIDpic3 from '../images/projectImages/primeAIDpic3.png';
+import PathFinding from '../images/projectImages/PathFinding.png';
 
 import Card from './Card.js'
 import Container from 'react-bootstrap/Container';
@@ -37,6 +38,15 @@ class Carousel extends React.Component{
                     imgSrc: nbalogo,
                     link: '',
                     github: 'https://github.com/rbehal/nb.AI',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: "Path Finding",
+                    subTitle:"Another example using genetic algorithms, the agents try and find a path to the target avoiding all obstacles. Each member of the population has DNA encoded as a list of vectors.",
+                    imgSrc: PathFinding,
+                    link: 'https://atma99.github.io/PathFinding/',
+                    github: 'https://github.com/atma99/PathFinding',
                     selected: false
                 }
               
